@@ -3,10 +3,11 @@
 <img src="https://assets.tokbox.com/img/vonage/Vonage_VideoAPI_black.svg" height="48px" alt="Tokbox is now known as Vonage" />
 
 ## Please note that this library is not officially supported by Vonage.
+
 React Native library for OpenTok iOS and Android SDKs
 
 - [opentok-react-native](#opentok-react-native)
-    - [In this repo, you'll find the OpenTok React Native library:](#in-this-repo-youll-find-the-opentok-react-native-library)
+  - [In this repo, you'll find the OpenTok React Native library:](#in-this-repo-youll-find-the-opentok-react-native-library)
   - [Pre-Requisites:](#pre-requisites)
   - [Installation:](#installation)
     - [iOS Installation](#ios-installation)
@@ -53,7 +54,7 @@ If you've installed this package before, you may need to edit your `Podfile` and
     target '<YourProjectName>' do
 
       # Pods for <YourProject>
-        pod 'OpenTok', '2.18.1'
+        pod 'OpenTok', '2.20.0'
     end
 
 ```
