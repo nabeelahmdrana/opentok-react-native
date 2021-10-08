@@ -112,6 +112,7 @@ class OTPublisher extends Component {
     OT.initPublisher(
       this.state.publisherId,
       publisherProperties,
+      this.props.orientation,
       (initError) => {
         if (initError) {
           this.setState({
